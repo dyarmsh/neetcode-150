@@ -14,8 +14,8 @@ where n is the size of the input array.
 
 def twoSum(nums: List[int], target: int) -> List[int]:
     """
-    Time: O(n), where n: size of nums
-    Space: O(n), where n: size of nums
+    Time: O(n), where n: size of nums list
+    Space: O(n), where n: size of nums list
     """
     diff_dict = {}
     for i in range(len(nums)): # O(n)
