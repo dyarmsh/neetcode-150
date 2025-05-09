@@ -31,6 +31,10 @@ def groupAnagrams(strs: List[str]) -> List[List[str]]:
     
     return list(strs_dict.values()) # space: O(m) elements
 
+# Alternative solution can use defaultdict(list) --> indicates the values are lists
+    # It is used to provide a default value for a nonexistent key in the 
+    # dictionary, eliminating the need for checking if the key exists before using it.
+
 
 print(groupAnagrams(["act","pots","tops","cat","stop","hat"])) 
 # [["hat"],["act", "cat"],["stop", "pots", "tops"]]
